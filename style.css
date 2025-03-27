@@ -1,16 +1,15 @@
 /* Reset margins, padding, and set box-sizing */
 body {
   font-family: "Open Sans", sans-serif;
-  max-width: 900px;margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 15px 20px;
+  background-color: #f4f4f4;
 }
 
 #logo {
@@ -27,4 +26,23 @@ body {
 }
 .navigation-item {
   cursor: pointer;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  
+}
+
+#about-me {
+  max-width: 600px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 80px;
 }
